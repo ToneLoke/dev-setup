@@ -1,9 +1,6 @@
 status --is-interactive; and . (rbenv init -|psub)
 set -U fish_user_paths /Users/toneloke/go/bin $fish_user_paths
 fix_path
-set -x REACT_APP_GOOGLE 'AIzaSyDgP7ijp3Qo1dsVnof-ShHeOlRIsrMXn54'
-set -x REACT_APP_WEATHER '4ae31f9cb372ca2204965a260053b19d'
-set -x REACT_APP_GIPHY 'A3iIyXV72KIPXrm6LJ8pF8ieOwmpgVQk'
 # setting GO Path
 set -gx GOPATH "$HOME/go"
 set -gx NWPATH "$HOME/nwjs"
